@@ -66,7 +66,8 @@ p {
 }
 
 .container {
-  width: 800px;
+  max-width:80rem;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -74,8 +75,8 @@ p {
 
 header {
   display: flex;
-  justify-content: space-between;
-  margin: 30px 0;
+  flex-wrap: wrap;
+  padding:2.5% 0 2.7%
 }
 
 header img nav {
@@ -110,8 +111,8 @@ nav .active-page {
 /* jumbo-img */
 
 
-.jumbo-img, .jumbo-img-about {
-  margin-bottom: 20px;
+header div.jumbo-img-about {
+  margin-top: 4.8%;
 }
 
 
